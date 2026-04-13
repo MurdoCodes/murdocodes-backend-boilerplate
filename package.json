@@ -1,9 +1,9 @@
 {
-  "name": "xrayai-kim",
+  "name": "murdocodes-backend-boilerplate-ts",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
-  "author": "",
+  "author": "MurdoCodes",
   "type": "commonjs",
   "scripts": {
     "dev": "nodemon --watch src --ext ts --exec ts-node src/app.ts",
@@ -11,7 +11,10 @@
     "start": "node dist/app.js",
     "prisma:generate": "prisma generate",
     "prisma:migrate:dev": "prisma migrate dev --name init",
-    "prisma:studio": "prisma studio"
+    "prisma:studio": "prisma studio",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint"
   },
   "dependencies": {
     "@prisma/client": "^5.16.0",
@@ -32,6 +35,22 @@
     "nodemon": "^3.0.3",
     "prisma": "^5.16.0",
     "ts-node": "^10.9.1",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "@eslint/js": "^10.0.1",
+    "@tsconfig/node20": "^20.1.9",
+    "@types/jest": "^30.0.0",
+    "eslint": "^10.0.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.15.0",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.4.0",
+    "jest": "^30.2.0",
+    "jiti": "^2.6.1",
+    "prettier": "^3.8.1",
+    "ts-jest": "^29.4.6",
+    "typescript-eslint": "^8.56.1"
+  },
+  "overrides": {
+    "eslint": "^10.0.2"
   }
 }

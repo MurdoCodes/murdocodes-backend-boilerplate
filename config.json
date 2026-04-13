@@ -1,0 +1,176 @@
+{
+  "configs": [
+    {
+      "automock": false,
+      "cache": true,
+      "cacheDirectory": "/private/var/folders/5f/q7hypxfs1cq93d_zgjxw25cw0000gn/T/jest_dx",
+      "clearMocks": false,
+      "collectCoverageFrom": [
+        "src/**/*.ts",
+        "!src/**/*.d.ts",
+        "!src/**/index.ts"
+      ],
+      "coverageDirectory": "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts/coverage",
+      "coveragePathIgnorePatterns": [
+        "/node_modules/"
+      ],
+      "coverageReporters": [
+        "text",
+        "lcov",
+        "html"
+      ],
+      "cwd": "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts",
+      "detectLeaks": false,
+      "detectOpenHandles": false,
+      "errorOnDeprecated": false,
+      "extensionsToTreatAsEsm": [],
+      "fakeTimers": {
+        "enableGlobally": false
+      },
+      "forceCoverageMatch": [],
+      "globals": {},
+      "haste": {
+        "computeSha1": false,
+        "enableSymlinks": false,
+        "forceNodeFilesystemAPI": true,
+        "throwOnModuleCollision": false
+      },
+      "id": "549b2ebe75f9a6c76620e2a6672b234f",
+      "injectGlobals": true,
+      "moduleDirectories": [
+        "node_modules"
+      ],
+      "moduleFileExtensions": [
+        "ts",
+        "js",
+        "json",
+        "node"
+      ],
+      "moduleNameMapper": [
+        [
+          "^(\\.{1,2}/.*)\\.js$",
+          "$1"
+        ],
+        [
+          "^@/(.*)$",
+          "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts/src/$1"
+        ]
+      ],
+      "modulePathIgnorePatterns": [],
+      "openHandlesTimeout": 1000,
+      "prettierPath": "prettier",
+      "resetMocks": false,
+      "resetModules": false,
+      "restoreMocks": false,
+      "rootDir": "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts",
+      "roots": [
+        "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts"
+      ],
+      "runner": "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts/node_modules/jest-runner/build/index.js",
+      "sandboxInjectedGlobals": [],
+      "setupFiles": [],
+      "setupFilesAfterEnv": [],
+      "skipFilter": false,
+      "slowTestThreshold": 5,
+      "snapshotFormat": {
+        "escapeString": false,
+        "printBasicPrototype": false
+      },
+      "snapshotSerializers": [],
+      "testEnvironment": "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts/node_modules/jest-environment-node/build/index.js",
+      "testEnvironmentOptions": {},
+      "testLocationInResults": false,
+      "testMatch": [
+        "**/__tests__/**/*.test.ts",
+        "**/*.test.ts",
+        "**/*.spec.ts"
+      ],
+      "testPathIgnorePatterns": [
+        "/node_modules/",
+        "/dist/"
+      ],
+      "testRegex": [],
+      "testRunner": "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts/node_modules/jest-circus/build/runner.js",
+      "transform": [
+        [
+          "^.+\\.ts$",
+          "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts/node_modules/ts-jest/dist/index.js",
+          {
+            "useESM": true
+          }
+        ],
+        [
+          "^.+\\.tsx?$",
+          "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts/node_modules/ts-jest/dist/index.js",
+          {}
+        ]
+      ],
+      "transformIgnorePatterns": [
+        "/node_modules/",
+        "\\.pnp\\.[^\\/]+$"
+      ],
+      "waitForUnhandledRejections": false,
+      "watchPathIgnorePatterns": []
+    }
+  ],
+  "globalConfig": {
+    "bail": 0,
+    "changedFilesWithAncestor": false,
+    "ci": false,
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "src/**/*.ts",
+      "!src/**/*.d.ts",
+      "!src/**/index.ts"
+    ],
+    "coverageDirectory": "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts/coverage",
+    "coverageProvider": "babel",
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ],
+    "detectLeaks": false,
+    "detectOpenHandles": false,
+    "errorOnDeprecated": false,
+    "expand": false,
+    "findRelatedTests": false,
+    "forceExit": false,
+    "json": false,
+    "lastCommit": false,
+    "listTests": false,
+    "logHeapUsage": false,
+    "maxConcurrency": 5,
+    "maxWorkers": 9,
+    "noStackTrace": false,
+    "nonFlagArgs": [],
+    "notify": false,
+    "notifyMode": "failure-change",
+    "onlyChanged": false,
+    "onlyFailures": false,
+    "openHandlesTimeout": 1000,
+    "passWithNoTests": false,
+    "projects": [],
+    "rootDir": "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts",
+    "runInBand": false,
+    "runTestsByPath": false,
+    "seed": 1301668975,
+    "skipFilter": false,
+    "snapshotFormat": {
+      "escapeString": false,
+      "printBasicPrototype": false
+    },
+    "testFailureExitCode": 1,
+    "testPathPatterns": [],
+    "testSequencer": "/Users/kim/Documents/workspace/Upskill/Boilerplate/backend/backend-boilerplate-ts/node_modules/@jest/test-sequencer/build/index.js",
+    "updateSnapshot": "new",
+    "useStderr": false,
+    "verbose": true,
+    "waitForUnhandledRejections": false,
+    "watch": false,
+    "watchAll": false,
+    "watchman": true,
+    "workerThreads": false
+  },
+  "version": "30.1.3"
+}
